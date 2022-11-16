@@ -7,8 +7,12 @@
     opacity: .9;
 }
 
-
-
-.btn {
+.btn__card {
     font-size: 12px !important;
+}
+
+@media only screen and (max-width: 340px) {
+    .btn__card {
+        font-size: 10px !important;
+    }
 }
